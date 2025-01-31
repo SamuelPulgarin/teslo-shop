@@ -3,16 +3,22 @@ LOGGER:
 - npx create-next-app@latest.
 - MetaData.
 - NextJS Fonts (./src/config/fonts.ts).
-- One layout to folder.
+- One layout for folder.
+- Install react-icons.github.io.
+- notFound() (next/navigation).
 
 
 SNIPPETS:
 
 - lrc (layout).
 - prc (page).
+- rafc (function component)
 
 
 NAMES_RESERVED:
 
 - page.tsx
 - layout.tsx
+- not-found.tsx
+
+sigue 192 top menu
