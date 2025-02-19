@@ -6,7 +6,11 @@ LOGGER:
 - One layout for folder.
 - Install react-icons.github.io.
 - notFound() (next/navigation).
-
+- NextJS Image (next/image).
+- FadeIn (gridProducts).
+- Lazy loading images (gridProducts)
+- MouseOver images(gridProducts)
+- Sidebar blur-black background effect
 
 SNIPPETS:
 
