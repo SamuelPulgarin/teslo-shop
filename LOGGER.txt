@@ -8,10 +8,11 @@ LOGGER:
 - notFound() (next/navigation).
 - NextJS Image (next/image).
 - FadeIn (gridProducts).
-- Lazy loading images (gridProducts)
-- MouseOver images(gridProducts)
-- Sidebar blur-black background effect
-- Zustand ui store Sidebar (open - closed)
+- Lazy loading images (gridProducts).
+- MouseOver images(gridProducts).
+- Sidebar blur-black background effect.
+- clsx (conditions).
+- Zustand ui store Sidebar (open - closed).
 
 SNIPPETS:
 
@@ -26,4 +27,4 @@ NAMES_RESERVED:
 - layout.tsx
 - not-found.tsx
 
-sigue 209 selector de tallas
+sigue 211 slideshow de imagenes
