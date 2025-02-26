@@ -1,8 +1,7 @@
-import { titleFont } from "@/config/fonts";
 
-export default function Home() {
+export default function LoginPage() {
   return (
-      <div className="">
+      <div>
         <h1>Login Page</h1>
       </div>
   );

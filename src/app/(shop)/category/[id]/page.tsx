@@ -1,16 +1,36 @@
+import { ProductGrid, Title } from "@/components";
+import { Category } from "@/interfaces";
+import { initialData } from "@/seed/seed";
+
+const seedProducts = initialData.products;
+
 interface Props {
-  params: {
-    id: string;
-  }
+  params: Promise<{
+    id: Category;
+  }>
 }
 
 
-export default function ({ params }: Props) {
+export default async function CategoryPage({ params }: Props) {
 
-  const { id } = params
+  const { id } = await params
+  const products = seedProducts.filter(product => product.gender === id)
+
+  const labels: Record<Category, string> = {
+    'men': 'Hombres',
+    'women': 'Mujeres',
+    'kid': 'Niños',
+    'unisex': 'todos'
+  }
+
   return (
-    <div>
-      <h1>Category Page {id}</h1>
-    </div>
+    <>
+      <Title
+        title={`Articulos de ${labels[id]}`}
+        subtitle="Todos los productos"
+        className="mb-2" />
+
+      <ProductGrid products={products} />
+    </>
   );
 }

@@ -11,6 +11,7 @@ LOGGER:
 - Lazy loading images (gridProducts)
 - MouseOver images(gridProducts)
 - Sidebar blur-black background effect
+- Zustand ui store Sidebar (open - closed)
 
 SNIPPETS:
 
@@ -25,4 +26,4 @@ NAMES_RESERVED:
 - layout.tsx
 - not-found.tsx
 
-sigue 192 top menu
+sigue 209 selector de tallas
